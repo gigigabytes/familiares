@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Familiares</title>
+</head>
+<body>
+    <h1>Lista de Familiares</h1>
+    <ul>
+        {% for familiar in familiares %}
+            <li><a href="/familiares/{{familiar.id}}">
+                {{ familiar.nome }} - Idade: {{ familiar.idade }} - Parentesco: {{ familiar.get_parentesco_display }}</a>
+                
+        {% endfor %}
+
+    </ul>
+   
+</body>
+</html>
