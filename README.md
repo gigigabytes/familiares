@@ -58,5 +58,24 @@ $ python manage.py createsuperuser
 
 12. Crie uma classe de visão e seu respectivo template para exibir a lista completa de familiares.
 
+## 🚀 Tecnologias Necessárias
 
+Para executar este projeto, você precisará das seguintes tecnologias:
 
+- **Python:** 🐍 É a linguagem de programação utilizada para desenvolver a aplicação. Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em [python.org](https://www.python.org/downloads/).
+
+- **Django:** 🌐 O framework web Django é usado para criar a aplicação. Você pode instalá-lo via pip, o gerenciador de pacotes do Python:
+
+```python
+$ pip install django
+```
+
+- **Ambiente Virtual:** 📦 Recomenda-se criar um ambiente virtual para isolar as dependências deste projeto de outros projetos Python. Você pode criar um ambiente virtual usando o módulo `venv` (Python 3.3+) ou `virtualenv`. Por exemplo:
+
+```python
+$ python -m venv dsweb
+```
+
+- **Navegador Web:** 🌐 Para acessar a interface de administração e visualizar a aplicação, você precisará de um navegador web, como Google Chrome, Mozilla Firefox, ou outro de sua escolha.
+
+Essas são as principais tecnologias necessárias para realizar este projeto. Certifique-se de ter todas elas configuradas antes de seguir os passos descritos no arquivo `Readme.md`.
